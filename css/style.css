@@ -926,7 +926,7 @@ img {
 
 .form-field:focus-within > .form-label,
 .form-input:not(:placeholder-shown) + .form-label {
-  transform: translateY(-40px) translateX(-26px);
+  transform: translateY(-38px) translateX(-26px);
   color: var(--accent-color);
   font-size: 12px;
 }
