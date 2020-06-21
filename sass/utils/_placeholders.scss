@@ -1,0 +1,17 @@
+%link {
+  text-decoration: none;
+}
+
+%list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+%button {
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+  color: $title-text-color;
+  background-color: $secondary-background-color;
+}
