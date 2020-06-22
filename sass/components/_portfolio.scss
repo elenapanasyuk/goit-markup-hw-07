@@ -35,13 +35,9 @@
 }
 
 .portfolio .button {
-  display: inline-block;
-  border-radius: 4px;
+  @extend %button;
   padding: 6px 22px;
   min-width: 73px;
-  border: 0;
-
-  background-color: $secondary-background-color;
 
   font-weight: 500;
   font-size: 16px;

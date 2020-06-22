@@ -52,10 +52,11 @@ img {
   list-style: none;
 }
 
-.hero-button {
+.hero-button, .button-send, .portfolio .button {
   display: inline-block;
   text-align: center;
   border-radius: 4px;
+  border: 0;
   color: #212121;
   background-color: #f5f4fa;
 }
@@ -223,7 +224,6 @@ img {
   letter-spacing: 0.06em;
   color: #ffffff;
   background-color: #2196f3;
-  border: 0;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -836,8 +836,6 @@ img {
 }
 
 .button-send {
-  margin-left: auto;
-  margin-right: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -847,7 +845,19 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
   cursor: pointer;
+  padding: 10px 32px;
+  min-width: 200px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: #ffffff;
+  background-color: #2196f3;
 }
 
 .button-close {
@@ -923,12 +933,8 @@ img {
 }
 
 .portfolio .button {
-  display: inline-block;
-  border-radius: 4px;
   padding: 6px 22px;
   min-width: 73px;
-  border: 0;
-  background-color: #f5f4fa;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
